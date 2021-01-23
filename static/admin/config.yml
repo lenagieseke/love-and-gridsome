@@ -1,0 +1,15 @@
+backend:
+  name: github
+  repo: lenagieseke/love-and-gridsome 
+
+collections:
+  - name: blog
+    label: Blog
+    folder: content/blog
+    create: true
+    slug: {{slug}}
+    fields:
+      - { label: Title, name: title, widget: string}
+      - { label: Date, name: date, widget: datetime}
+media_folder: 'static/uploads'
+public_folder: '/uploads'
