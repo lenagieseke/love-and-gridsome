@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: lenagieseke/love-and-gridsome 
+  repo: lenagieseke/love-and-gridsome-legie 
 
 collections:
   - name: blog
